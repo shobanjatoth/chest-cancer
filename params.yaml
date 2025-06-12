@@ -1,0 +1,8 @@
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]  # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 5  # Increased from 1 for better training
+CLASSES: 3
+WEIGHTS: imagenet
+LEARNING_RATE: 0.001  # Reduced from 0.01 for more stable training
